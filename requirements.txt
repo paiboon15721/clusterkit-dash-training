@@ -1,6 +1,7 @@
 aiohttp==3.6.2
 async-timeout==3.0.1
 attrs==19.3.0
+autopep8==1.4.4
 backcall==0.1.0
 bleach==3.1.0
 certifi==2019.9.11
@@ -58,6 +59,7 @@ pickleshare==0.7.5
 plotly==4.3.0
 prometheus-client==0.7.1
 prompt-toolkit==2.0.10
+pycodestyle==2.5.0
 Pygments==2.4.2
 pyparsing==2.4.5
 pyrsistent==0.15.6
