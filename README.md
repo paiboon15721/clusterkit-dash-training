@@ -2,7 +2,7 @@
 
 ## Setup local environment
 
-1. Install python, Download <a href="https://www.python.org/downloads/" target="_blank">here</a>
+1. Install python version 3.7.4, Download <a href="https://www.python.org/downloads/release/python-374/" target="_blank">here</a>
 2. Install virtualenv using `pip install virtualenv`
 3. Open terminal and change directory to working directory
 4. Create virtualenv using `virtualenv venv`
