@@ -21,23 +21,28 @@ app.layout = html.Div(
                 }
             }
         ),
-        dcc.Graph(
-            id='pie',
-            figure={
-                'data': [go.Pie(labels=dfSumRole.index, values=dfSumRole['Salary'])],
-                'layout': {
-                    'title': 'Pie chart show role summary of expense'
+        html.Div(
+            dcc.Graph(
+                id='pie',
+                figure={
+                    'data': [go.Pie(labels=dfSumRole.index, values=dfSumRole['Salary'])],
+                    'layout': {
+                        'title': 'Pie chart show role summary of expense'
+                    }
                 }
-            }
+            ),
+            style={'width': '45%', 'display': 'inline-block'}
         ),
-        dcc.Graph(
-            id='pie2',
-            figure={
-                'data': [go.Pie(labels=srCountRole.index, values=srCountRole.values)],
-                'layout': {
-                    'title': 'Pie chart show summary of role in organization'
+        html.Div(
+            dcc.Graph(
+                id='pie2',
+                figure={
+                    'data': [go.Pie(labels=srCountRole.index, values=srCountRole.values)],
+                    'layout': {
+                        'title': 'Pie chart show summary of role in organization'
+                    }
                 }
-            }
+            ), style={'width': '45%', 'display': 'inline-block'}
         )
     ]
 )
