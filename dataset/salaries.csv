@@ -1,4 +1,12 @@
-Name,Salary,Age
-John,50000,34
-Sally,120000,45
-Alyssa,80000,27
+Name,Salary,Age,Role
+John,50000,34,staff
+Sally,220000,45,manager
+Alyssa,80000,27,staff
+Rose,120000,34,specialist
+Angela,85000,25,specialist
+Frank,60000,22,staff
+Patrick,65000,30,staff
+Lisa,75000,35,staff
+Todd,180000,40,specialist
+Joe,53000,35,staff
+Michael,58000,38,staff
