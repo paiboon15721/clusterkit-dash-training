@@ -16,9 +16,7 @@ app.layout = html.Div(
             id='bar',
             figure={
                 'data': [go.Bar(x=df['Name'], y=df['Salary'])],
-                'layout': {
-                    'title': 'Barchart show each employee salary'
-                }
+                'layout': go.Layout(title='Barchart show each employee salary')
             }
         ),
         html.Div(
