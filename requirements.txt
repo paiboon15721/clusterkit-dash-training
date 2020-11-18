@@ -52,7 +52,7 @@ multidict==4.6.1
 nbconvert==5.6.1
 nbformat==4.4.0
 nbserverproxy==0.8.8
-notebook==6.0.2
+notebook==6.1.5
 numpy==1.17.4
 pandas==0.25.3
 pandocfilters==1.4.2
